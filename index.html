@@ -583,7 +583,89 @@ for Your Business"
             </li>
           </ul>
         </div>
+        <div class="footer-form">
+          <p class="footer-form-text">Subscribe</p>
+          <label
+            ><input
+              class="footer-form-input"
+              type="email"
+              id="user-email"
+              name="user-email"
+              placeholder="E-mail"
+          /></label>
+
+          <button type="submit" class="subscribe-button">
+            Subscribe
+            <svg class="footer-form-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-send"></use>
+            </svg>
+          </button>
+        </div>
       </div>
     </footer>
+    <div class="backdrop is-open">
+      <div class="modal">
+        <button type="button" class="modal-btn">
+          <svg class="modal-btn-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-criss-cross"></use>
+          </svg>
+        </button>
+        <p class="modal-text">Leave your contacts and we will call you back</p>
+        <form class="modal-form" name="review">
+          <div class="modal-form-field">
+            <label class="modal-form-label" for="user-name">Name</label>
+            <div class="modal-form-wrapper">
+              <input
+                class="modal-form-input"
+                type="text"
+                id="user-name"
+                name="user-name"
+              />
+              <svg class="modal-form-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-user"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-form-field">
+            <label class="modal-form-label" for="user-phone">Phone</label>
+            <div class="modal-form-wrapper">
+              <input
+                class="modal-form-input"
+                type="tel"
+                id="user-phone"
+                name="user-phone"
+              />
+              <svg class="modal-form-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-form-field">
+            <label class="modal-form-label" for="user-email">Email</label>
+            <div class="modal-form-wrapper">
+              <input
+                class="modal-form-input"
+                type="email"
+                id="user-email"
+                name="user-email"
+              />
+              <svg class="modal-form-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-form-wrapper">
+            <label class="modal-form-label" for="textarea">Comment</label>
+            <textarea
+              class="modal-form-textarea"
+              name="modal-form-textarea"
+              id="textarea"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+        </form>
+        <button type="submit" class="send-button">Send</button>
+      </div>
+    </div>
   </body>
 </html>
