@@ -666,7 +666,6 @@ img {
 }
 .modal-form-input:focus + .modal-form-icon {
   fill: #4d5ae5;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form-textatea {
   margin-bottom: 16px;
